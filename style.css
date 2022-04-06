@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to top right, rgb(199, 45, 117), rgb(82, 127, 223), rgb(216, 100, 226));
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: midnightblue;
+    color: white;
+    position: fixed;
+    
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px rgb(66, 1, 66) solid;
+}
+    
+
+
+
